@@ -1,0 +1,45 @@
+ h3 {
+    color: rgb(59, 48, 70);
+    /*background-color: black;*/
+ }
+  div{
+   color: red;
+  }
+
+  p {
+   color: red;
+  }
+
+div span {
+   color: aquamarine;
+}
+ 
+span {
+   color: blueviolet;
+}
+.text-container {
+   color: brown;
+  /* background-color: black;*/
+}
+
+section.section.text-container {
+   color: brown;
+  /* background-color: black;*/
+  padding: 100px;
+}
+
+* {
+   text-decoration: underline;
+}
+ul li:last-child {
+   background-color: rgb(255, 0, 140);
+}
+ul li:last-child {
+   background-color: rgb(31, 30, 102);
+}
+.block {
+   color: blueviolet;
+   background-color: black;
+   width: 200px;
+   /*height: 100px;*/
+}
