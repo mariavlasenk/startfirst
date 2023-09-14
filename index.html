@@ -3,88 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,500;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
     <title>Document</title>
-    <link rel="stylesheet" href="style/menu.css">
 </head>
 <body>
-    <div class="main-menu">
-        <form action="">
-            <button>
-               <img src="img/heroicons-solid_menu-alt-2.png" alt="heroicons-solid_menu">
-            </button>
-            <h1>
-                Menu
-            </h1>
-            <input type="search">
-        </form>
-        <div class="menu-items">
-            <div class="menu-item">
-            <div class="menu-item-img-block">
-                <img src="img/cream.png" ait="cream">
-            </div>
-                
-                <h3>
-                    Food
-                </h3>
-            </div>
-            <div class="menu-item">
-            <div class="menu-item-img-block">
-                <img src="img/emojione_tropical-drink.png" alt="Drinks">
-                 </div>
-                <h3>
-                    Drinks
-                </h3>
-            </div>
-            <div class="menu-item">
-                <div class="menu-item-img-block">
-                    <img src="img/cream.png" alt="cream">
-                </div>
-                <h3>
-                    Dessert
-                </h3>
-            </div>
-        </div>
-        <h2>
-            Burger
-        </h2>
-        <div class="menu-proposition">
-            <div class="menu-propositon-item">
-                <div class="propositon-img">
-                    <img src="img/burger-1.png" alt="burger-1">
-                </div>
-                <div class="propositon-description">
-                
-                    <h4>
-                        Big Mac
-                    </h4>
-                    <p>
-                        Rs 240
-                    </p>
-                </div>
-                <div class="propositon-img">
-                    <img src="img/burger-2.png" alt="burger-2">
-                </div>
-                <div class="propositon-description">
-                    <h4>
-                        KFC Double
-                    </h4>
-                    <p>
-                        Rs 252
-                    </p>
-                </div>
-                <div class="propositon-img">
-                    <img src="img/burger-3.png" alt="burger-3">
-                </div>
-                <div class="propositon-description">
-                    <h4>
-                        Fish Burger
-                    </h4>
-                    <p>
-                        Rs 220
-                    </p>
-                </div>
-            </div>
+    <header> 
+        <a href="">
+            <img src="img/logo (1).svg" alt="logo">
+        </a>
+        <button class="my_button"> Login</button>
+    </header>
+    <section> 
+        <h1>
+            html+css. верстка
+        </h1>
+        <div class="cards-wrap"> 
+        <div class="card">
+            <h2>
+                теория html + css. Структура приложения
+            </h2>
+            <img class="card-img" src="img/img-1.svg" alt="img-1">
+            <p>Проговорим о том, что такое <span> HTML и CSS </span> Создадим проект и рассмотрим его файловую структуру. Научимся работать с макетом в Figma. Изучим 13 самых используемых тегов. Напишем HTML-структуру нашего приложения. </p>
         </div>
     </div>
+    <div class="cards-wrap"> 
+        <div class="card">
+            <h2> Стилизация HTML-элементов </h2>
+            <img class="card-img" src="img/img-2.svg" alt="img-2">
+            <p>
+                Подключим шрифты. Рассмотрим самый правильный способ добавления стилей. Рассмотрим синтаксис написания стилей. Напишем стили для элементов. Изучим популярные ,<span>свойства</span> Посмотрим как располагать элементы, используя Flexbox.
+            </p>
+        </div>
+    </div>
+    <div class="cards-wrap"> 
+        <div class="card">
+            <h2>Адаптив.Медиазапросы </h2>
+            <img class="card-img" src="img/img-3.svg" alt="img-3">
+            <p>Сделаем наше приложение адаптивным, чтобы оно так же хорошо выглядело на планшетах и мобильных телефонах. Рассмотрим как работает св-во flex-wrap. Научимся делать
+                <span> адаптив</span> используя м едиазапросы.  </p>
+        </div>
+    </div>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <a href="">
+                    <img src="img/home-icon (1).svg" alt=" home">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="img/computer-icon.svg" alt="">
+                    All Courses 
+                </a>
+            </li>
+            <li> 
+                <a href="">
+                <img src="img/sandbox-icon.svg" alt=""> 
+                Sandbox 
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="img/map-pointer-icon.svg" alt="">
+                    Contacts
+                </a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>
